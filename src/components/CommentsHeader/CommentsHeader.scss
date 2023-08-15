@@ -1,0 +1,25 @@
+.comments_header {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(118 118 118 / 30%);
+    margin-top: 30px;
+}
+
+.likes {
+    padding-left: 27px;
+    font-size: 15px;
+    position: relative;
+    &::before {
+        position: absolute;
+        background-image: url("../../../public/img/likes.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        content: "";
+        left: 0;
+        top: 2px;
+    }
+}
